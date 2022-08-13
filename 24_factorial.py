@@ -1,14 +1,19 @@
-# # from math import factorial
+# from math import factorial
 
 
-# # num=int(input("Enter a number :- "))
-# # factorial=1
-# # if num <= 0:
-# #     print("Enter greator then 0 ")
-# # else:
-# #     for i in range(1,num+1):
-# #         factorial=factorial*i
-# #         print("Factorial :- ",num,factorial)
+# num = int(input('Enter Any  Number :-'))
+# factorial = 1
+# if num  <= 0 :
+#   print('Enter Greater Then 0')
+# else:
+#   for i in range(1,num+1):
+#     factorial = factorial * 1
+#     break
+#     print('Your Factorial Ans is :-',factorial)
+
+
+
+
 
 
 
@@ -28,12 +33,19 @@
 #   a = a - 1
 # print("Factorial :- ",fact)
 
-def Fact(a):
-  if a==1:
-    return 1
-  return a * Fact (a - 1)
+
+def Fact(num):
+  fact = 1
+  for i in range(1,num+1):
+    fact = fact * i
+  return fact
 
 a = int(input("Enter a number :- "))
-f1 = Fact(a)
-print("Factorial :- ",f1)
+print(Fact(a))
 
+
+# num = int(input(' ---> '))
+# fact = 1
+# for i in range(1,num+1):
+#   fact = fact * i
+#   print(fact)
