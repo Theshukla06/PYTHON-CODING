@@ -1,15 +1,10 @@
-from unicodedata import name
+class Person:
+    def __init__(self,name,age):
 
+        self.name = name
+        self.age  = age
 
-class StudentData:
-    def SetData(Self):
-        Self.name = input('Enter Your Name :- ')
-        Self.age = int(input('Enter Your Age :- '))
-        Self.per = float(input('Enter Your Percentage :- '))
-    
-    def Display():
-        print('Your Name is :- ',name)
-        print('Your Age is :- ',age)
-        print('Your Percentage is :- ',per)
+P1 = Person("Ankit Shukla",22)
 
-
+print(P1.name)
+print(P1.name)
