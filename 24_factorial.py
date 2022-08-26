@@ -34,18 +34,21 @@
 # print("Factorial :- ",fact)
 
 
+# def Fact(num):
+#   fact = 1
+#   for i in range(1,num+1):
+#     fact = fact * i
+#   return fact
+
+# a = int(input("Enter a number :- "))
+# print(Fact(a))
+
+
 def Fact(num):
   fact = 1
-  for i in range(1,num+1):
+  for i in range (1,num):
     fact = fact * i
   return fact
 
-a = int(input("Enter a number :- "))
-print(Fact(a))
-
-
-# num = int(input(' ---> '))
-# fact = 1
-# for i in range(1,num+1):
-#   fact = fact * i
-#   print(fact)
+num = int(input("Enter a num value :- "))
+print(Fact(num))
