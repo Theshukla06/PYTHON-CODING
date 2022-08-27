@@ -43,12 +43,13 @@
 # a = int(input("Enter a number :- "))
 # print(Fact(a))
 
-
-def Fact(num):
+def Factorial(num):
   fact = 1
-  for i in range (1,num):
-    fact = fact * i
+  for i in range(1,num+1):
+    fact = fact*i
   return fact
+num = int(input("Enter a number :- "))
+print(Factorial(num))
 
-num = int(input("Enter a num value :- "))
-print(Fact(num))
+
+
