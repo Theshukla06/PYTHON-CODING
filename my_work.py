@@ -287,9 +287,30 @@
 
 # Q21
 # PALINDROME
-a = input('Enter a value :- ')
-reverse = a[::-1]
-if a == reverse:
-    print('Number Is Palindrome')
+# a = input('Enter a value :- ')
+# reverse = a[::-1]
+# if a == reverse:
+#     print('Number Is Palindrome')
+# else:
+#     print('Number Is Not Palindrome')
+
+
+
+# def Feb(num):
+#     if num == 0:
+#         return 0
+#     elif num == 1:
+#         return 1
+#     else:
+#         return (Feb(num-1)+ Feb(num-2))
+# num = int(input("Enter a no :- "))
+# for i in range(num):
+#     print(Feb(i))
+
+num = input("Enter a no :- ")
+rev = num[::-1]
+
+if rev != num:
+    print(num,"Its Not Palindrome")
 else:
-    print('Number Is Not Palindrome')
+    print(num,"Is Palindrome")
