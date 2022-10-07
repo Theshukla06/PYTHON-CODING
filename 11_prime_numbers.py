@@ -1,15 +1,28 @@
 # PRIME NUMBER
 
 num = int(input('Enter a number :-'))
-if num > 1:
+if num > 1 :
     for i in range(2,num):
         if num % i == 0:
-            print(num,'Is Not Prime')
+            print(num,"Number Is Not Prime")
             break
     else:
-        print(num,"Is Prime Number")
+        print(num,"Number Is Prime")
+        
 else:
-    print(num,"Is Not Prime Number")
+    print(num,"Num Is Not Prime")
+
+
+# num = int(input('Enter a number :-'))
+# if num > 1:
+#     for i in range(2,num):
+#         if num % i == 0:
+#             print(num,'Is Not Prime')
+#             break
+#     else:
+#         print(num,"Is Prime Number")
+# else:
+#     print(num,"Is Not Prime Number")
    
 
 

@@ -317,18 +317,71 @@
 
 # ARMSTRONG
 
-num = int(input("Enter a three no :- "))
-temp = num
-sum = 0 
-digit = 0
+# num = int(input("Enter a three no :- "))
+# temp = num
+# sum = 0 
+# digit = 0
 
-while temp > 0:
-    digit = temp % 10
-    sum += digit ** 3
-    temp //= 10
+# while temp > 0:
+#     digit = temp % 10
+#     sum += digit ** 3
+#     temp //= 10
     
-if num == sum :
-    print(num,"Is Armstrong Number")
-else:
-    print(num,"Is Not Armstrong Number")
+# if num == sum :
+#     print(num,"Is Armstrong Number")
+# else:
+#     print(num,"Is Not Armstrong Number")
 
+# def Fib(num):
+#     if num == 0:
+#         return 0
+#     elif num == 1:
+#         return 1
+#     else:
+#         return (Fib(num - 1)+Fib(num - 2))
+
+# num = int(input('Enter a number :- '))
+# for i in range(num):
+#     print(Fib(i))
+
+
+
+# num = int(input('Enter a number :-'))
+# if num > 1:
+#     for i in range(2,num):
+#         if num % i == 0:
+#             print(num,"Number IS Not Prime")
+#             break
+#     else:
+#         print(num,"Number Is Prime")
+# else:
+#     print(num,"Number Is Not Prime")
+
+
+# def Fib(num):
+#     if num == 0:
+#         return 0
+#     elif num == 1:
+#         return 1
+#     else:
+#         return(Fib(num - 1)+ Fib(num-2))
+
+# num = int(input("Enter a number :- "))
+# for i in range(num):
+#     print(Fib(i))
+
+
+# num = "Ankit"
+# num1 = num[::-1]
+# print(num1)
+
+
+def reverse_string(str):
+
+    str1 = " "
+    for i in str:
+        str1 = i + str1
+    return str1
+
+str = "Ankit"
+print(reverse_string(str))
