@@ -1,1 +1,1 @@
-n = int(input('Enter Any Number :- '))
+,end=""

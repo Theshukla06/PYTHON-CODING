@@ -1,91 +1,84 @@
 # PRIME NUMBER
 
-num = int(input('Enter a number :-'))
-if num > 1 :
+num = int(input("Enter a num :- "))
+if num > 1:
     for i in range(2,num):
         if num % i == 0:
-            print(num,"Number Is Not Prime")
+            print(num,"Is Not Prime Number")
             break
     else:
-        print(num,"Number Is Prime")
-        
+        print(num,"Is prime")
 else:
-    print(num,"Num Is Not Prime")
+    print(num,"Is Not Prime")
 
 
 # num = int(input('Enter a number :-'))
-# if num > 1:
+# if num > 1 :
 #     for i in range(2,num):
 #         if num % i == 0:
-#             print(num,'Is Not Prime')
+#             print(num,"Number Is Not Prime")
 #             break
 #     else:
-#         print(num,"Is Prime Number")
+#         print(num,"Number Is Prime")
+        
 # else:
-#     print(num,"Is Not Prime Number")
-   
+#     print(num,"Num Is Not Prime")
 
 
 
 
 
+# #Write a program to find series of prime numbers from 100 to 200 using for-else loop.
+
+# lower=int(input("Enter Lower Number :- "))
+# upper=int(input("Enter lower Number :- "))
+
+# for num in range(lower , upper+1 ):
+#     for i in range (2,num):
+#         if (num%i)==0:
+#             break
+#     else:
+#         print(num)
+
+# num=int(input("Enter a  Number :- "))
+# # If number is greater than 1
+# if num > 1:
+#    # Check if factor exist  
+#    for i in range(2,num):
+#        if (num % i) == 0:
+#            print(num,"is not a prime number")
+#            break
+#    else:
+#        print(num,"is a prime number")
+# # Else if the input number is less than or equal to 1
+# else:
+#    print(num,"is not a prime number")   
 
 
 
+# lower=int(input("Enter a lower number :- "))
+# upper=int(input("Enter a upper number :- "))
 
-
-
-# # # # #Write a program to find series of prime numbers from 100 to 200 using for-else loop.
-
-# # # # # lower=int(input("Enter Lower Number :- "))
-# # # # # upper=int(input("Enter lower Number :- "))
-
-# # # # # for num in range(lower , upper+1 ):
-# # # # #     for i in range (2,num):
-# # # # #         if (num%i)==0:
-# # # # #             break
-# # # # #     else:
-# # # # #         print(num)
-
-# # # # num=int(input("Enter a  Number :- "))
-# # # # # If number is greater than 1
-# # # # if num > 1:
-# # # #    # Check if factor exist  
-# # # #    for i in range(2,num):
-# # # #        if (num % i) == 0:
-# # # #            print(num,"is not a prime number")
-# # # #            break
-# # # #    else:
-# # # #        print(num,"is a prime number")
-# # # # # Else if the input number is less than or equal to 1
-# # # # else:
-# # # #    print(num,"is not a prime number")   
-
-
-
-# # # lower=int(input("Enter a lower number :- "))
-# # # upper=int(input("Enter a upper number :- "))
-
-# # # for num in range (lower,upper+1):
+# for num in range (lower,upper+1):
     
-# # #     for i in range(2,num):
-# # #         if(num % i )==0:
-# # #             break
-# # #     else:
-# # #         print(num)
+#     for i in range(2,num):
+#         if(num % i )==0:
+#             break
+#     else:
+#         print(num)
 
 
 
-# # lower=int(input("Enter a lower no :- "))
-# # upper=int(input("Enter a upper no :- "))
+# lower=int(input("Enter a lower no :- "))
+# upper=int(input("Enter a upper no :- "))
 
-# # for num in range (lower,upper+1):
+# for num in range (lower,upper+1):
 
-# #     for i in range(2,num):
-# #         if(num % i )==0:
-# #             break
-# #     else:
-# #         print(num)
+#     for i in range(2,num):
+#         if(num % i )==0:
+#             break
+#     else:
+#         print(num)
 
 # lower=int(input("Enter a lower number :- "))
 # upper=int(input("Enter a upper number :- "))

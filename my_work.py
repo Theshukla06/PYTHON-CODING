@@ -376,12 +376,45 @@
 # print(num1)
 
 
-def reverse_string(str):
+# def reverse_string(str):
 
-    str1 = " "
-    for i in str:
-        str1 = i + str1
-    return str1
+#     str1 = " "
+#     for i in str:
+#         str1 = i + str1
+#     return str1
 
-str = "Ankit"
-print(reverse_string(str))
+# str = "Ankit"
+# print(reverse_string(str))
+
+# a=22
+# a1 = str(a)
+# print(type(a1))
+
+#LIST IN LOOP
+
+# list = ["Ankit","Shukla","Atul","Pandit"]
+
+# for i in list():
+#     print(list)
+#     break
+
+# SUM OF NATURAL NUMBER
+
+# num = int(input("Enter a number :- "))
+# sum = 0
+# for i in range(1,num + 1):
+#     sum = sum + i
+#     print(sum)
+
+# num = int(input("Enter a number :- "))
+# for i in range(1 , num + 1):
+#     for j in range(1 , i + 1):
+#         print("*",end=" ")
+#     print()
+
+i = 4
+if i > 0:
+    pass
+while   i > 6 :
+    pass
+print("Shukla")
