@@ -412,9 +412,28 @@
 #         print("*",end=" ")
 #     print()
 
-i = 4
-if i > 0:
-    pass
-while   i > 6 :
-    pass
-print("Shukla")
+# i = 4
+# if i > 0:
+#     pass
+# while   i > 6 :
+#     pass
+# print("Shukla")
+
+#SUM OF ARRAY
+# arr = [1,2,3,4,5]
+# sum = 0
+# for i in range(0, len(arr)):
+#     sum = sum + arr[i]
+# print(sum)
+
+def ShortArray(arr):
+    for i in arr:
+        arr.sort()
+    print(arr)
+
+arr = [7,6,4,2]
+ShortArray(arr)
+# arr = (7,6,4,2)
+# arr.sort()
+# for i in range(0, len(arr)):
+#     print(arr[i], end=" ")

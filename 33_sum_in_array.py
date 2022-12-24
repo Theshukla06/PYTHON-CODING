@@ -23,8 +23,11 @@
 
 arr = [10,10,10,10,10]
 sum = 0
-
-for i in range(0,len(arr)):
+for i in range(0, len(arr)):
     sum = sum + arr[i]
-print("Sum "+str(sum))
+    print(str(sum))
+
+# for i in range(0,len(arr)):
+#     sum = sum + arr[i]
+# print("Sum "+str(sum))
 

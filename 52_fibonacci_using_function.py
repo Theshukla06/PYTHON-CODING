@@ -22,8 +22,6 @@
 #     print(fibonacci(i))
 
 
-import re
-
 
 def febi(n):
     if(n==1):
