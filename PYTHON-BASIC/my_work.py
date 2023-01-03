@@ -426,14 +426,48 @@
 #     sum = sum + arr[i]
 # print(sum)
 
-def ShortArray(arr):
-    for i in arr:
-        arr.sort()
-    print(arr)
+# def ShortArray(arr):
+#     for i in arr:
+#         arr.sort()
+#     print(arr)
 
-arr = [7,6,4,2]
-ShortArray(arr)
+# arr = [7,6,4,2]
+# ShortArray(arr)
+
 # arr = (7,6,4,2)
 # arr.sort()
 # for i in range(0, len(arr)):
 #     print(arr[i], end=" ")
+
+# def Sum(num1,num2,sum): 
+#     print("Your Num1 Value is :- ",num1)
+#     print("Your Num2 Value is :- ",num2)
+#     sum = num1 + num2
+#     print("The Sum num1 and num2 ans is :-",sum)
+
+# num1=int(input("Enter Num1 :- "))
+# num2=int(input("Enter Num1 :- "))
+# Sum(num1,num2,sum)
+
+# num = int(input("Enter a number :- "))
+# for i in range(1,num+1):
+#     print(i,end=" ")
+
+# if num % 2 == 0:
+#     print(num,"is even")
+# else:
+#     print(num,"is odd")
+
+# from math import pi
+
+# num = int(input("Enter num :- "))
+# a=pi*num*num
+# print(a)
+
+# num = int(input("Enter a num :- "))
+# for i in range(0,num+1):
+n=int(input("Enter n :- "))
+for i in range (1,n+1):
+    for j in range (1,i+1):
+        print("*",end=" ")
+    print()
